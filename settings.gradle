@@ -1,0 +1,2 @@
+rootProject.name = "LogbackBaseInit"
+include "logging", "example"

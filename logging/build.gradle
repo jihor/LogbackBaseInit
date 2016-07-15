@@ -1,0 +1,10 @@
+dependencies {
+    compile "org.projectlombok:lombok",
+            "ch.qos.logback:logback-classic",
+            "ch.qos.logback:logback-core",
+            "org.codehaus.groovy:groovy-all",
+            "com.fasterxml.jackson.core:jackson-annotations",
+            "com.fasterxml.jackson.core:jackson-databind",
+            "org.slf4j:slf4j-api",
+            "com.splunk.logging:splunk-library-javalogging"
+}

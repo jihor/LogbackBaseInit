@@ -1,0 +1,15 @@
+apply plugin: "com.palantir.docker"
+apply plugin: "spring-boot"
+
+docker {
+    name "logback-base-init-exmple:$revision"
+    dependsOn jar, bootRepackage
+}
+
+dependencies {
+    compile project(":logging"),
+            "org.slf4j:jcl-over-slf4j",
+            "org.codehaus.groovy:groovy-all",
+            "org.springframework.boot:spring-boot-starter-web",
+            "org.springframework:spring-web"
+}
